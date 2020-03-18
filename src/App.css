@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.first{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    flex-direction: column;
+    text-align: end;
+    color: whitesmoke;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #4696e5;
+    height: 500px;
+    padding:50px
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.input1{
+  border-radius: 5px;
+  height: 35px;
+  margin-left: 150px;
+  margin-top: 20px;}
+  .add{
+    cursor: pointer;
+    margin-left: 93%;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color:white;
+    font-weight: bold;
   }
-  to {
-    transform: rotate(360deg);
+  .add:hover{
+    color:#4696e5 ;
+    background-color: white;
+    border: 0.5px solid #26262660;
+    transition: ease-in-out 0.3s;
   }
+  .my-todo{
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 20px;
+    font-weight: bold;
+    margin:0 auto;
+    width:30%  }
+.todo-complete{
+  text-decoration: line-through;
 }
+.complete-btn{
+  cursor: pointer;
+  background-color: #4696e5;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  color:white;
+  font-weight: bold;
+  margin-right: 35px;
+  width: 120px;
+}
+.delete-btn{
+  cursor: pointer;
+  background-color: #4696e5;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  color:white;
+  font-weight: bold;
+  margin-right: 35px;
+  width:120px;}
+ 
+  .my-todo-list{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
