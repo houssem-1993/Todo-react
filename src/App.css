@@ -37,7 +37,7 @@
     padding-top: 20px;
     font-weight: bold;
     margin:0 auto;
-    width:30%  }
+    width:40%  }
 .todo-complete{
   text-decoration: line-through;
 }
@@ -67,4 +67,22 @@
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+  }
+  .edit-btn{
+    cursor: pointer;
+  background-color: #4696e5;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  color:white;
+  font-weight: bold;
+  margin-right: 35px;
+  width:120px;
+  }
+  .edit-input{
+    height: 40px;
+    width: 100px;
+    padding:10px 20px 10px 20px;
+    margin-top: 20px;
+    margin-right: 35px;
   }
